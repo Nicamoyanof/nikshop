@@ -1,3 +1,5 @@
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
 const path = require('path');
 
 const rulesForJavascript = {
@@ -5,9 +7,10 @@ const rulesForJavascript = {
     loader: 'babel-loader',
     options:{
         "presets": [
-            '@babel/preset-react',
-            {"runtime" : "automatic"}
-        ]
+            ["@babel/preset-react", {
+            "runtime": "automatic"
+          }]
+          ]
     }
 }
 
@@ -24,5 +27,17 @@ module.exports = {
     output:{
         path: path.resolve(__dirname,'build')
     },
-    rules: 
+    module: {
+        rules: rules,
+    },    
+    plugins: [
+        new HtmlWebpackPlugin({
+            template:'src/index.html'
+        })
+    ],
+    devServer:{
+        open: true,
+        port: 3000,
+    }
+
 }
