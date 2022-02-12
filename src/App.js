@@ -41,7 +41,7 @@ export default function App() {
                         Remeras
                     </li>
                     <li className='itemListNavBar'>
-                        Buzos
+                        Buzos y Hoodies
                     </li>
                     <li className='itemListNavBar'>
                         Jeans
