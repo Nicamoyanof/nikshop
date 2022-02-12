@@ -23,7 +23,7 @@ const rulesForCss = {
 
 const rulesForPng = {
     type: 'asset',
-    test: /\.(png|jpg|gif|svg)$/
+    test: /\.(png|jpg|gif|svg)$/i,
 }
 
 const rules = [rulesForJavascript, rulesForCss, rulesForPng]
