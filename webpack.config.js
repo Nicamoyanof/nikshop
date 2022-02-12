@@ -2,6 +2,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const path = require('path');
 
+const ASSET_PATH = process.env.ASSET_PATH || '/';
+
+
 const rulesForJavascript = {
     test: /\.js$/,
     loader: 'babel-loader',
@@ -24,14 +27,15 @@ const rulesForCss = {
 const rulesForPng = {
     type: 'asset',
     test: /\.(png|jpg|gif|svg)$/i,
+   /*  loader: 'file-loader? name=/public/img/[name].[ext]' */
 }
 
 const rules = [rulesForJavascript, rulesForCss, rulesForPng]
 
 module.exports = {
     output: {
-        path: path.resolve(__dirname, 'build')
-    },
+        path: path.resolve(__dirname, 'build'),
+        },
     module: {
         rules: rules,
     },
@@ -40,7 +44,7 @@ module.exports = {
             template: 'src/index.html',
             favicon: "./public/img/favicon.png"
         }
-        )
+        ),
     ],
     devServer: {
         open: true,

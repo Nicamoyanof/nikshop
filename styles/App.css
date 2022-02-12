@@ -71,7 +71,7 @@
     width: 60vw;
     height: 100vh;
     padding: 30px 15px;
-    box-shadow: 1px 1px 20px #cec09e;
+    box-shadow: 1px 1px 20px #343331;
     transition: 1s;
 }
 .navBar.active{
