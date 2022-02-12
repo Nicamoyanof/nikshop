@@ -21,7 +21,15 @@ const rulesForCss = {
     ]
 }
 
-const rules = [rulesForJavascript, rulesForCss]
+const rulesForPng = {
+    test: /\.(png|jpg|gif|svg)$/,
+    loader: 'file-loader',
+    options: {
+      name: '[name].[ext]'
+    }
+}
+
+const rules = [rulesForJavascript, rulesForCss, rulesForPng]
 
 module.exports = {
     output: {
