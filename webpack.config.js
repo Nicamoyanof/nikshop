@@ -23,8 +23,17 @@ const rulesForCss = {
 }
 
 const rulesForPng = {
-    type: 'asset',
-    test: /\.(png|jpg|gif|svg)$/i,
+    test: /\.(png|jpg|gif|svg)$/,
+    use: [
+        {
+            loader: 'file-loader',
+            options: {
+                name: '[name].[ext]',
+                outputPath: 'assets/img/',
+                useRelativePath: true
+            }
+        }
+    ]
    /*  loader: 'file-loader? name=/public/img/[name].[ext]' */
 }
 
