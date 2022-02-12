@@ -1,7 +1,6 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const path = require('path');
-s
 
 
 const rulesForJavascript = {
@@ -40,8 +39,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: 'src/index.html',
-            favicon: "public/img/favicon.png"
+            template: 'src/index.html'
         }
         ),
     ],
