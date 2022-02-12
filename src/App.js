@@ -4,7 +4,6 @@ import { faComments, faUser } from '@fortawesome/free-solid-svg-icons';
 import { IoSearchOutline, IoCloseOutline } from 'react-icons/io5';
 import { AiOutlineMenu, AiOutlineShopping } from "react-icons/ai";
 import '../styles/App.css';
-import '../public/img';
 
 export default function App() {
 
