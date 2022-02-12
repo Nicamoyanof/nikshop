@@ -22,11 +22,8 @@ const rulesForCss = {
 }
 
 const rulesForPng = {
-    test: /\.(png|jpg|gif|svg)$/,
-    loader: 'file-loader',
-    options: {
-      name: '[name].[ext]'
-    }
+    type: 'asset',
+    test: /\.(png|jpg|gif|svg)$/
 }
 
 const rules = [rulesForJavascript, rulesForCss, rulesForPng]
