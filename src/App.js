@@ -25,7 +25,7 @@ export default function App() {
         <div>
             <header className="headerHome">
                 <AiOutlineMenu className='iconHamburger' onClick={()=>deployMenu()} />
-                <img src='img/logo.jpgn' className='logoHeader' />
+                <img src='img/logo.jpg' className='logoHeader' />
                 <form className='searchHeader'>
                     <input type='search' class='inputSearchHeader' placeholder='Buscar' />
                     <IoSearchOutline className='iconSearchHeader' />
