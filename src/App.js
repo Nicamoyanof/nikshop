@@ -50,6 +50,7 @@ export default function App() {
                     </li>
                 </ul>
             </nav>
+            <img src='https://www.google.com/search?q=imagenes&rlz=1C1MSIM_enAR943AR943&sxsrf=APq-WBt6gl3-v0_xkWeJDFOplgIyEWNKqw:1644680580793&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjlxaXOwPr1AhUOIbkGHSzYAp8Q_AUoAXoECAIQAw&biw=1745&bih=881&dpr=1.1#imgrc=yRdsZ-zqxwGPmM' />
             <footer>
                 <ul>
                     <li>whatsapp</li>
