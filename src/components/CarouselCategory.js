@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { MdOutlineKeyboardArrowLeft, MdOutlineKeyboardArrowRight } from "react-icons/md";
 import '../../styles/components/CarouselCategory.css';
 import ItemProduct from "../components/ItemProduct";
+import '../assets/img/remera.jpg'
 
 export default function CarouselCategory() {
 
