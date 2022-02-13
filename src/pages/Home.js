@@ -1,12 +1,13 @@
-import CarouselCategory from "../components/CarouselCategory"
+import ContainerCarouselCategory from "../components/ContainerCarouselCategory";
+import '../../styles/pages/Home.css'
 
 
 export default function Home() {
     return (
-        <main>
-            <CarouselCategory />
-            <CarouselCategory />
-            <CarouselCategory />
+        <main className="mainContainer">
+            <ContainerCarouselCategory />
+            <ContainerCarouselCategory />
+            <ContainerCarouselCategory />
         </main>
     )
 }

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState , useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faComments, faUser } from '@fortawesome/free-solid-svg-icons';
 import { IoSearchOutline, IoCloseOutline } from 'react-icons/io5';
@@ -7,6 +7,7 @@ import '../styles/App.css';
 import Home from './pages/Home';
 
 export default function App() {
+
 
     const [classNavBar, setClassNavBar] = useState('navBar');
 
@@ -20,9 +21,8 @@ export default function App() {
     }
 
 
-
     return (
-        <div>
+        <div className='containerApp'>
             <header className="headerHome">
                 <AiOutlineMenu className='iconHamburger' onClick={() => deployMenu()} />
                 <img src='assets/img/logo.jpg' className='logoHeader' />
@@ -32,11 +32,11 @@ export default function App() {
                 </form>
                 <div className='utilitiesContainer'>
                     <figure className='figureContainer helpHeader'>
-                        <FontAwesomeIcon icon={faComments}  />
+                        <FontAwesomeIcon icon={faComments} />
                         <figcaption className='textUtilities'>  Ayuda  </figcaption>
                     </figure>
                     <figure className='figureContainer profileHeader'>
-                        <FontAwesomeIcon icon={faUser}  />
+                        <FontAwesomeIcon icon={faUser} />
                         <figcaption className='textUtilities'>  Mi Perfil  </figcaption>
                     </figure>
                     <figure className='figureContainer shoppingHeader' >
@@ -63,6 +63,7 @@ export default function App() {
                     </li>
                 </ul>
             </nav>
+            <span className='generateMarginBottom'></span>
             <Home />
             <footer>
                 <ul>
