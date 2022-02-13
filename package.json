@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/Nicamoyanof/nikshop/issues"
   },
-  "homepage": "https://Nicamoyanof.github.io/nikshop",
+  "homepage": "https://Nicamoyanof.github.io/nikshop/",
   "devDependencies": {
     "@babel/core": "^7.17.2",
     "@babel/preset-react": "^7.16.7",

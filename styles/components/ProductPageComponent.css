@@ -518,7 +518,7 @@
         overflow: scroll;
     }
 
-    .imageProductPage {
+    .imageProductPrincipal {
         width: 300px;
         object-fit: cover;
         height: 300px;

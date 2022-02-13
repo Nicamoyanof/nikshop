@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
-import {
-    BrowserRouter as  Router, Routes, Route} from "react-router-dom";
+import {BrowserRouter as  Router, Routes, Route} from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faComments, faUser } from '@fortawesome/free-solid-svg-icons';
 import { IoSearchOutline, IoCloseOutline } from 'react-icons/io5';

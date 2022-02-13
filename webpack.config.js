@@ -45,8 +45,7 @@ module.exports = {
       ],
     output: {
         path: path.resolve(__dirname, 'build'),
-        filename: 'main.js',
-        publicPath: '/'
+        filename: 'main.js'
         },
     module: {
         rules: rules,
@@ -61,9 +60,9 @@ module.exports = {
     devServer: {
         open: true,
         port: 3000,
-        historyApiFallback: true,
-        contentBase: path.resolve(__dirname, './build'),
-        compress: true,
+        historyApiFallback:{
+            index:'/'
+        },
     }
 
 }
