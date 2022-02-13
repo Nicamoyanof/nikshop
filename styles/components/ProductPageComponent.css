@@ -1,5 +1,4 @@
-
-.containerProductPages{
+.containerProductPages {
     color: #fff;
     width: 100vw;
     position: relative;
@@ -7,78 +6,91 @@
 }
 
 /* CONTENEDOR DE IMAGENES*/
-.containerImages{
 
+.imageProductPrincipal {
+    display: none;
 }
-.paginationImg{
+
+.paginationImg {
     display: block;
     text-align: center;
     margin: 10px 0;
 }
-.swiperImages{
+
+.swiperImages {
     display: flex;
     width: 100%;
     overflow: scroll;
 }
-.imageProductPage{
+
+.imageProductPage {
     width: 100%;
     margin-right: 15px;
 }
 
 /*CONTENEDOR DE INFORMACION DEL PRODUCTO*/
 
-.containerCategoryPages{
+.containerCategoryPages {
     color: #999;
     font-size: 14px;
 }
-.titleProductPage{
+
+.titleProductPage {
     margin-top: 10px;
     font-size: 33px;
 }
-.priceProductPage{
+
+.priceProductPage {
     margin-top: 10px;
     font-size: 30px;
 }
 
 /*  CAJA DE MEDIOS DE PAGO  */
-.payMethodsProduct{
-    margin:20px 0;
+.payMethodsProduct {
+    margin: 20px 0;
 }
-.itemMethodsPay{
-    display:flex;
+
+.itemMethodsPay {
+    display: flex;
     margin: 7px 0;
 }
-.iconItemsPay{ 
+
+.iconItemsPay {
     margin-right: 10px;
-    height:100%;
-    font-size:18px
+    height: 100%;
+    font-size: 18px
 }
-.cashIcon{
-    font-size:21px;
+
+.cashIcon {
+    font-size: 21px;
 
 }
-.textMethodsPay{
-    font-size:14px;
+
+.textMethodsPay {
+    font-size: 14px;
 }
 
 /*  CAJA DE COLORES  */
 
-.containerColorsProduct{
+.containerColorsProduct {
     display: block;
-    height: 100%;
+    height: auto;
     margin: 0 0 25px 0;
 }
-.titleColorProduct{
-    font-size:20px;
+
+.titleColorProduct {
+    font-size: 20px;
 }
-.containerBoxColor{
-    margin: 15px 0 15px 7px ;
+
+.containerBoxColor {
+    margin: 15px 0 15px 7px;
     width: 100%;
     display: flex;
-    justify-content:flex-start;
-    
+    justify-content: flex-start;
+
 }
-.BoxColor{
+
+.BoxColor {
     margin-right: 20px;
     display: block;
     width: 25px;
@@ -88,23 +100,429 @@
 
 /*  CAJA DE TALLES  */
 
-.containerSizeProduct{
 
-}
-.titleSizeProduct{
+.titleSizeProduct {
     font-size: 20px;
 }
-.containerBoxSize{
-    margin: 15px 0 15px 7px ;
+
+.containerBoxSize {
+    padding: 15px 7px;
     width: 100%;
-    display: flex;
-    justify-content:flex-start;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 25px;
+    row-gap: 25px;
+    justify-content: flex-start;
+    overflow: hidden;
 }
-.BoxSize{
-    margin-right: 20px;
+
+.BoxSize {
     display: block;
-    width: 100%;
     padding: 5px;
     border: 2px solid #999;
     text-align: center;
+    break-after: auto;
+}
+
+/*  CAJA DE SUMAR PRODUCTOS  */
+.quintityProduct {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 35px 0;
+    width: 100%;
+}
+
+.boxAddproduct {
+    display: flex;
+    background: #fff;
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid var(--color-yellow-logo);
+    align-items: center;
+    justify-content: space-around;
+}
+
+.quantityProductsAdd {
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.iconAddProducts {
+    font-size: 28px;
+}
+
+/*  BOTON ADD SHOPPING  */
+.btnAddShopping {
+    font-size: 16px;
+    padding: 15px 5px;
+    margin-left: 10px;
+    border-radius: 80px;
+    font-weight: 600;
+    border: none;
+    background-color: var(--color-yellow-logo);
+}
+
+
+/*  CODIGO POSTAL  */
+.containerTextShipping {
+    display: flex;
+    margin: 15px 0;
+    align-items: center;
+}
+
+.iconTruckShipping {
+    font-size: 20px;
+    margin: 0 10px 0 0;
+
+}
+
+.textMethodsShipping {
+    font-size: 16px;
+    letter-spacing: 1.5px;
+}
+
+.formAddress {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.inputCodeAddress {
+    font-size: 16px;
+    letter-spacing: -0.5px;
+    width: 50%;
+    height: 40px;
+    border-radius: 10px 0 0 10px;
+    border: none;
+    padding: 0 10px
+}
+
+.inputCodeAddress:focus {
+    outline: none;
+}
+
+.btnSubmitAddress {
+    width: 50%;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-radius: 0 10px 10px 0;
+    border: none;
+    background: #fdf1d0;
+}
+
+.moreInfoAddress {
+    font-size: 14px
+}
+
+@media (min-width:375px) {
+
+    /*  CAJA DE SUMAR PRODUCTOS  */
+    .boxAddproduct {
+        width: 95px;
+    }
+
+    .quantityProductsAdd {
+        font-size: 26px;
+    }
+
+    /*  BOTON ADD SHOPPING  */
+    .btnAddShopping {
+        font-size: 18px;
+        padding: 15px 30px;
+    }
+
+    /*  CODIGO POSTAL  */
+    .containerTextShipping {
+        display: flex;
+        margin: 15px 0;
+        align-items: center;
+    }
+
+    .iconTruckShipping {
+        font-size: 24px;
+        margin: 0 15px 0 0;
+
+    }
+
+    .textMethodsShipping {
+        font-size: 20px;
+        letter-spacing: 0;
+    }
+
+    .inputCodeAddress {
+        font-size: 20px;
+        letter-spacing: 0px;
+    }
+
+    .btnSubmitAddress {
+        font-size: 19px;
+    }
+}
+
+@media (min-width:768px) {
+    .containerProductPages {
+        display: flex;
+    }
+
+    /* CONTENEDOR DE IMAGENES*/
+    .containerImages {
+        width: 50%;
+        margin-right: 25px;
+    }
+
+    .imageProductPrincipal {
+        display: block;
+        width: 100%;
+    }
+
+    .swiperImages {
+        margin: 15px 0 0 0;
+    }
+
+    .imageProductPage {
+        width: 50px;
+        margin-right: 15px;
+    }
+
+    /*CONTENEDOR DE INFORMACION DEL PRODUCTO*/
+
+    .titleProductPage {
+        font-size: 30px;
+    }
+
+    .priceProductPage {
+        font-size: 28px;
+    }
+
+    /*  metodos de apgo  */
+    .iconItemsPay {
+        font-size: 16px
+    }
+
+    .cashIcon {
+        font-size: 19px;
+
+    }
+
+    /*  CAJA DE COLORES  */
+
+    .titleColorProduct {
+        font-size: 18px;
+    }
+
+    .BoxColor {
+        width: 20px;
+        height: 20px;
+    }
+
+    /*  CAJA DE TALLES  */
+
+
+    .titleSizeProduct {
+        font-size: 20px;
+    }
+
+    .containerBoxSize {
+        grid-template-columns: repeat(7, 1fr);
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+
+    .BoxSize {
+        font-size: 12px;
+    }
+
+    /*  CAJA DE SUMAR PRODUCTOS  */
+    .quintityProduct {
+        margin: 0 0 15px 0;
+    }
+
+    .boxAddproduct {
+        width: 70px;
+        height: 35px;
+    }
+
+    .quantityProductsAdd {
+        font-size: 18px;
+    }
+
+    .iconAddProducts {
+        font-size: 22px;
+    }
+
+    /*  BOTON ADD SHOPPING  */
+    .btnAddShopping {
+        font-size: 16px;
+        padding: 15px 30px;
+    }
+
+    /*  CODIGO POSTAL  */
+    .iconTruckShipping {
+        font-size: 20px;
+        margin: 0 10px 0 0;
+
+    }
+
+    .textMethodsShipping {
+        font-size: 16px;
+        letter-spacing: 1.5px;
+    }
+
+    .formAddress {
+        display: flex;
+        align-items: center;
+        margin: 15px 0;
+    }
+
+    .inputCodeAddress {
+        font-size: 16px;
+        letter-spacing: -0.5px;
+        padding: 0 10px
+    }
+
+    .btnSubmitAddress {
+        font-size: 18px;
+    }
+
+    .moreInfoAddress {
+        font-size: 14px
+    }
+
+}
+
+@media (min-width:1024px) {
+
+    /* CONTENEDOR DE IMAGENES*/
+    .imageProductPage {
+        width: 70px;
+    }
+
+    /*CONTENEDOR DE INFORMACION DEL PRODUCTO*/
+
+    .titleProductPage {
+        font-size: 33px;
+    }
+
+    .priceProductPage {
+        font-size: 31px;
+    }
+
+    /*  metodos de apgo  */
+    .iconItemsPay {
+        font-size: 18px
+    }
+
+    .cashIcon {
+        font-size: 21px;
+    }
+
+    .textMethodsPay {
+        font-size: 16px;
+    }
+
+    /*  CAJA DE COLORES  */
+
+    .titleColorProduct {
+        font-size: 22px;
+    }
+
+    .BoxColor {
+        width: 25px;
+        height: 25px;
+    }
+
+    /*  CAJA DE TALLES  */
+    .titleSizeProduct {
+        font-size: 22px;
+    }
+
+    .containerBoxSize {
+        grid-template-columns: repeat(7, 1fr);
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+
+    .BoxSize {
+        font-size: 16px;
+    }
+
+    /*  CAJA DE SUMAR PRODUCTOS  */
+    .quintityProduct {
+        margin: 15px 0;
+    }
+
+    .boxAddproduct {
+        width: 90px;
+        height: 40px;
+    }
+
+    .quantityProductsAdd {
+        font-size: 20px;
+    }
+
+    .iconAddProducts {
+        font-size: 24px;
+    }
+
+    /*  CODIGO POSTAL  */
+    .iconTruckShipping {
+        font-size: 22px;
+
+    }
+
+    .textMethodsShipping {
+        font-size: 18px;
+        letter-spacing: 0px;
+    }
+
+    .formAddress {
+        display: flex;
+        align-items: center;
+        margin: 15px 0;
+    }
+
+    .inputCodeAddress {
+        font-size: 18px;
+        letter-spacing: 0px;
+    }
+
+    .btnSubmitAddress {
+        font-size: 20px;
+    }
+
+}
+
+@media (min-width:1440px) {
+
+    /* CONTENEDOR DE IMAGENES*/
+    .containerImages {
+        display: flex;
+    }
+
+    /* .paginationImg {
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+    }
+ */
+    .swiperImages {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        overflow: scroll;
+    }
+
+    .imageProductPage {
+        width: 300px;
+        object-fit: cover;
+        height: 300px;
+        margin-right: 15px;
+    }
+
 }
