@@ -40,7 +40,9 @@ const rulesForPng = {
 const rules = [rulesForJavascript, rulesForCss, rulesForPng]
 
 module.exports = {
-    entry: './src/index.js',
+    entry: [
+        path.resolve(__dirname, 'src', 'index.js')
+      ],
     output: {
         path: path.resolve(__dirname, 'build'),
         filename: 'main.js',
@@ -60,6 +62,8 @@ module.exports = {
         open: true,
         port: 3000,
         historyApiFallback: true,
+        contentBase: path.resolve(__dirname, './build'),
+        compress: true,
     }
 
 }
