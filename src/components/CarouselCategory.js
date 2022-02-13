@@ -16,7 +16,7 @@ export default function CarouselCategory() {
     return (
         <div className="containerCategory">
             <h2 className='titleCategory'>Remeras</h2>
-            <MdOutlineKeyboardArrowLeft className='arrowCarrouselCategory arrowLeft' />
+            <MdOutlineKeyboardArrowLeft className='arrowCarrouselCategory arrowLeft' onClick={()=>setStyleCarousel(styleCarousel+200)}/>
             <div className='categoryProductsCategory' style={style}>
                 <ItemProduct />
                 <ItemProduct />
