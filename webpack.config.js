@@ -40,21 +40,26 @@ const rulesForPng = {
 const rules = [rulesForJavascript, rulesForCss, rulesForPng]
 
 module.exports = {
+    entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'build'),
+        filename: 'main.js',
+        publicPath: '/'
         },
     module: {
         rules: rules,
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: 'src/index.html'
+            template: 'src/index.html',
+            inject: true,
         }
         ),
     ],
     devServer: {
         open: true,
         port: 3000,
+        historyApiFallback: true,
     }
 
 }

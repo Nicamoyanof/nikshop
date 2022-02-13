@@ -1,10 +1,13 @@
-import { useState , useEffect } from 'react';
+import { useState, useEffect } from 'react';
+import {
+    BrowserRouter as  Router, Routes, Route} from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faComments, faUser } from '@fortawesome/free-solid-svg-icons';
 import { IoSearchOutline, IoCloseOutline } from 'react-icons/io5';
 import { AiOutlineMenu, AiOutlineShopping } from "react-icons/ai";
 import '../styles/App.css';
 import Home from './pages/Home';
+import ProductPage from './pages/ProductPage';
 
 export default function App() {
 
@@ -64,7 +67,18 @@ export default function App() {
                 </ul>
             </nav>
             <span className='generateMarginBottom'></span>
-            <Home />
+
+
+
+            <Routes>
+                    <Route path="/" element={<Home />} />
+
+
+                    <Route path="about" element={<ProductPage />} />
+            </Routes>
+
+
+
             <footer>
                 <ul>
                     <li>whatsapp</li>
