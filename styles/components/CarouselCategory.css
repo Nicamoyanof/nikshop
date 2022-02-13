@@ -1,0 +1,27 @@
+.containerCategory{
+    overflow: hidden;
+    position: relative;
+}
+.titleCategory{
+    color: #fff;
+}
+.categoryProductsCategory{
+    display: flex;
+    transition: 1s;
+}
+.arrowCarrouselCategory{
+    background: rgba(119, 119, 119, 0.658);
+    border-radius: 50px;
+    position: absolute ;
+    color: #fff;
+    font-size:33px;
+}
+.arrowLeft{
+    top: 40%;
+    bottom: 0;
+}
+.arrowRigth{
+    top: 40%; 
+    right: 0;
+    margin: auto;
+}
