@@ -1,5 +1,7 @@
-export default function About(){
+import ProductPageComponent from '../components/ProductPageComponent'
+
+export default function ProductPage(){
     return(
-        <h1> ABOUT </h1>
+        <ProductPageComponent />
     )
 }

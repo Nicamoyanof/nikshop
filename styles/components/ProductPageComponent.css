@@ -1,0 +1,110 @@
+
+.containerProductPages{
+    color: #fff;
+    width: 100vw;
+    position: relative;
+    padding: 15px;
+}
+
+/* CONTENEDOR DE IMAGENES*/
+.containerImages{
+
+}
+.paginationImg{
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+}
+.swiperImages{
+    display: flex;
+    width: 100%;
+    overflow: scroll;
+}
+.imageProductPage{
+    width: 100%;
+    margin-right: 15px;
+}
+
+/*CONTENEDOR DE INFORMACION DEL PRODUCTO*/
+
+.containerCategoryPages{
+    color: #999;
+    font-size: 14px;
+}
+.titleProductPage{
+    margin-top: 10px;
+    font-size: 33px;
+}
+.priceProductPage{
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+/*  CAJA DE MEDIOS DE PAGO  */
+.payMethodsProduct{
+    margin:20px 0;
+}
+.itemMethodsPay{
+    display:flex;
+    margin: 7px 0;
+}
+.iconItemsPay{ 
+    margin-right: 10px;
+    height:100%;
+    font-size:18px
+}
+.cashIcon{
+    font-size:21px;
+
+}
+.textMethodsPay{
+    font-size:14px;
+}
+
+/*  CAJA DE COLORES  */
+
+.containerColorsProduct{
+    display: block;
+    height: 100%;
+    margin: 0 0 25px 0;
+}
+.titleColorProduct{
+    font-size:20px;
+}
+.containerBoxColor{
+    margin: 15px 0 15px 7px ;
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    
+}
+.BoxColor{
+    margin-right: 20px;
+    display: block;
+    width: 25px;
+    height: 25px;
+    border: 2px solid #999;
+}
+
+/*  CAJA DE TALLES  */
+
+.containerSizeProduct{
+
+}
+.titleSizeProduct{
+    font-size: 20px;
+}
+.containerBoxSize{
+    margin: 15px 0 15px 7px ;
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+}
+.BoxSize{
+    margin-right: 20px;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border: 2px solid #999;
+    text-align: center;
+}
