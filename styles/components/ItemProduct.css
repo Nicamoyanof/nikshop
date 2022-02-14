@@ -27,6 +27,9 @@
     margin: 7px 0 0;
     color: #fff;
 }
+.titleProduct:hover{
+    text-decoration: underline;
+}
 .priceProduct{
     text-align: center;
     margin: 7px 0 0;
@@ -50,11 +53,14 @@
 .infoItem{
     background-color: #fdf1d0;
 }
-.infoItem:active{
-    background-color: #e6c66f;
+.infoItem:hover{
+    background-color: #d3c294;
 }
 .addShopping{
     background: var(--color-yellow-logo);
+}
+.addShopping:hover{
+    background: #ffbb00;
 }
 @media (min-width:1024px) {
     .containerProduct{

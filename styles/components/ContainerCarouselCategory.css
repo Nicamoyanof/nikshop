@@ -30,3 +30,13 @@
     right: 0;
     margin: auto;
 }
+@media (min-width:1024px) {
+    .arrowCarrouselCategory{
+        display: block;
+        background: rgba(119, 119, 119, 0.658);
+        border-radius: 50px;
+        position: absolute ;
+        color: #fff;
+        font-size:33px;
+    }
+}
