@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import {BrowserRouter as  Router, Routes, Route} from "react-router-dom";
+import { BrowserRouter as Switch, Routes, Route } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faComments, faUser } from '@fortawesome/free-solid-svg-icons';
 import { IoSearchOutline, IoCloseOutline } from 'react-icons/io5';
@@ -7,6 +7,7 @@ import { AiOutlineMenu, AiOutlineShopping } from "react-icons/ai";
 import '../styles/App.css';
 import Home from './pages/Home';
 import ProductPage from './pages/ProductPage';
+import { Link } from "react-router-dom";
 
 export default function App() {
 
@@ -27,7 +28,8 @@ export default function App() {
         <div className='containerApp'>
             <header className="headerHome">
                 <AiOutlineMenu className='iconHamburger' onClick={() => deployMenu()} />
-                <img src='assets/img/logo.jpg' className='logoHeader' />
+                <Link to='/'> <img src='assets/img/logo.jpg' className='logoHeader' /> </Link>
+                
                 <form className='searchHeader'>
                     <input type='search' class='inputSearchHeader' placeholder='Buscar' />
                     <IoSearchOutline className='iconSearchHeader' />
@@ -67,22 +69,17 @@ export default function App() {
             </nav>
             <span className='generateMarginBottom'></span>
 
-
-
-            <Routes>
-                    <Route path="/" element={<Home />} />
-
-
-                    <Route path="about" element={<ProductPage />} />
+            <Routes >
+                <Route path="/" element={<Home />} />
+                <Route exact path="/about"  element={<ProductPage />} />
             </Routes>
 
 
-
-            <footer>
+            <footer className="footer">
                 <ul>
-                    <li>whatsapp</li>
-                    <li>mail</li>
-                    <li>ubicaciones</li>
+                    <li>Whatsapp</li>
+                    <li>Mail</li>
+                    <li>UBicaciones</li>
                 </ul>
             </footer>
         </div>

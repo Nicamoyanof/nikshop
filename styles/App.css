@@ -111,6 +111,11 @@
     border-bottom: 1px solid var(--color-yellow-logo);
 }
 
+/*    footer        */
+.footer {
+    background: #999;
+}
+
 @media (min-width: 420px) {
 
     /* HEADER MEDIA */

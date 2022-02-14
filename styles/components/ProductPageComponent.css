@@ -503,6 +503,9 @@
     /* CONTENEDOR DE IMAGENES*/
     .containerImages {
         display: flex;
+        flex-direction: row-reverse;
+        height: auto;
+        justify-content:flex-end;
     }
 
     /* .paginationImg {
@@ -512,17 +515,26 @@
     }
  */
     .swiperImages {
+        margin: 0 ;
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 150px;
         overflow: scroll;
+        height: 700px;
+    }
+    .swiperImages::-webkit-scrollbar{
+        display: none;
+    }
+    .imageProductPage{
+        width:100px;
+        margin:10px;
     }
 
     .imageProductPrincipal {
-        width: 300px;
+        width: 75%;
+        height: auto;
         object-fit: cover;
-        height: 300px;
-        margin-right: 15px;
+        margin:0 15px;
     }
 
 }

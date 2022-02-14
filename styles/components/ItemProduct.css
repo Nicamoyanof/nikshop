@@ -17,11 +17,15 @@
     color: #fff;
     width: 100%;
 }
+.containerTitleProduct{
+    text-decoration: none;
+}
 .titleProduct{
     font-size:18px;
     font-weight: 500;
     text-align: center;
     margin: 7px 0 0;
+    color: #fff;
 }
 .priceProduct{
     text-align: center;
@@ -33,9 +37,12 @@
     text-align: center;
     margin: 5px 0 0;
 }
-.bottomProduct{
+.btnProduct{
     margin: 7px 0 0;
+    text-align: center;    
     padding: 5px 0;
+    color: #000;
+    text-decoration:none;
     border-radius: 20px;
     border: none;
     font-weight: 500;
@@ -43,6 +50,40 @@
 .infoItem{
     background-color: #fdf1d0;
 }
+.infoItem:active{
+    background-color: #e6c66f;
+}
 .addShopping{
     background: var(--color-yellow-logo);
+}
+@media (min-width:1024px) {
+    .containerProduct{
+        width: 250px;
+        min-width: 250px;
+        margin: 25px;
+    }
+    .imgProduct{
+        border-radius: 10px;
+    }
+    .titleProduct{
+        font-size:22px;
+        font-weight: 600;
+    }
+    .priceProduct{
+        font-size: 20px;
+    }
+    .cardProduct{
+        font-size:15px;
+        margin: 10px 0 ;
+    }
+    .btnProduct{
+        margin: 10px 0 ; 
+        padding: 10px 0;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size:16px;
+    }
+    .addShopping{
+        background: var(--color-yellow-logo);
+    }
 }
