@@ -1,14 +1,19 @@
-export default function CarouselCategory(){
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import ItemProduct from './ItemProduct';
+
+export default function CarouselCategory() {
     return (
-        <div className='categoryProductsCategory' style={styleScroll} >
-                <ItemProduct />
-                <ItemProduct />
-                <ItemProduct />
-                <ItemProduct />
-                <ItemProduct />
-                <ItemProduct />
-                <ItemProduct />
-                <ItemProduct />
-            </div>
+        <Swiper className='categoryProductsCategory'  >
+            <SwiperSlide><ItemProduct /></SwiperSlide>
+            <SwiperSlide><ItemProduct /></SwiperSlide>
+            <SwiperSlide><ItemProduct /></SwiperSlide>
+            <SwiperSlide><ItemProduct /></SwiperSlide>
+            <SwiperSlide><ItemProduct /></SwiperSlide>
+            <SwiperSlide><ItemProduct /></SwiperSlide>
+            <SwiperSlide><ItemProduct /></SwiperSlide>
+            <SwiperSlide><ItemProduct /></SwiperSlide>
+            <SwiperSlide><ItemProduct /></SwiperSlide>
+        </Swiper>
     )
 }
