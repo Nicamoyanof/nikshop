@@ -1,0 +1,253 @@
+[
+    {
+        "name": "Remera Marca X",
+        "price": "$3500.00",
+        "img": "../assets/img/remera.jpg",
+        "category":["Remeras"],
+        "id": 1,
+        "url": "producto1"
+    },
+    {
+        "name": "Remera Marca X",
+        "price": "$2900.00",
+        "img": "../assets/img/remera.jpg",
+        "category":["Remeras"],
+        "id": 2,
+        "url": "producto2"
+    },
+    {
+        "name": "Remera Marca X",
+        "price": "$2620.00",
+        "img": "../assets/img/remera.jpg",
+        "category":["Remeras"],
+        "id": 3,
+        "url": "producto3"
+        
+    },
+    {
+        "name": "Remera Marca X",
+        "price": "$9502.00",
+        "img": "../assets/img/remera.jpg",
+        "category":["Remeras"],
+        "id": 4,
+        "url": "producto4"
+        
+    },
+    {
+        "name": "Remera Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/remera.jpg",
+        "category":["Remeras"],
+        "id": 5,
+        "url": "producto5"
+    },
+    {
+        "name": "Jean Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/jean.jpg",
+        "category":["Jean"],
+        "id": 6,
+        "url": "producto6"
+    },
+    {
+        "name": "Jean Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/jean.jpg",
+        "category":["Jean"],
+        "id": 7,
+        "url": "producto7"
+    },
+    {
+        "name": "Jean Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/jean.jpg",
+        "category":["Jean"],
+        "id": 8,
+        "url": "producto8"
+    },
+    {
+        "name": "Jean Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/jean.jpg",
+        "category":["Jean"],
+        "id": 9,
+        "url": "producto9"
+    },
+    {
+        "name": "Jean Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/jean.jpg",
+        "category":["Jean"],
+        "id": 10,
+        "url": "producto10"
+    },
+    {
+        "name": "Jean Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/jean.jpg",
+        "category":["Jean"],
+        "id": 11,
+        "url": "producto11"
+    },
+    {
+        "name": "Jean Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/jean.jpg",
+        "category":["Jean"],
+        "id": 12,
+        "url": "producto12"
+    },
+    {
+        "name": "Jean Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/jean.jpg",
+        "category":["Jean"],
+        "id": 13,
+        "url": "producto13"
+    },
+    {
+        "name": "Accesorio Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/accesorio.jpg",
+        "category":["Accesorio"],
+        "id": 14,
+        "url": "producto14"
+    },
+    {
+        "name": "Accesorio Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/accesorio.jpg",
+        "category":["Accesorio"],
+        "id": 15,
+        "url": "producto15"
+    },
+    {
+        "name": "Accesorio Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/accesorio.jpg",
+        "category":["Accesorio"],
+        "id": 16,
+        "url": "producto16"
+    },
+    {
+        "name": "Accesorio Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/accesorio.jpg",
+        "category":["Accesorio"],
+        "id": 17,
+        "url": "producto17"
+    },
+    {
+        "name": "Accesorio Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/accesorio.jpg",
+        "category":["Accesorio"],
+        "id": 18,
+        "url": "producto18"
+    },
+    {
+        "name": "Accesorio Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/accesorio.jpg",
+        "category":["Accesorio"],
+        "id": 19,
+        "url": "producto19"
+    },
+    {
+        "name": "Accesorio Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/accesorio.jpg",
+        "category":["Accesorio"],
+        "id": 20,
+        "url": "producto20"
+    },
+    {
+        "name": "Accesorio Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/accesorio.jpg",
+        "category":["Accesorio"],
+        "id": 21,
+        "url": "producto21"
+    },
+    {
+        "name": "Accesorio Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/accesorio.jpg",
+        "category":["Accesorio"],
+        "id": 22,
+        "url": "producto22"
+    },
+    {
+        "name": "Buzo Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/buzo.jpg",
+        "category":["Buzo"],
+        "id": 23,
+        "url": "producto23"
+    },
+    {
+        "name": "Buzo Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/buzo.jpg",
+        "category":["Buzo"],
+        "id": 24,
+        "url": "producto24"
+    },
+    {
+        "name": "Buzo Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/buzo.jpg",
+        "category":["Buzo"],
+        "id": 25,
+        "url": "producto25"
+    },
+    {
+        "name": "Buzo Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/buzo.jpg",
+        "category":["Buzo"],
+        "id": 26,
+        "url": "producto26"
+    },
+    {
+        "name": "Buzo Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/buzo.jpg",
+        "category":["Buzo"],
+        "id": 27,
+        "url": "producto27"
+    },
+    {
+        "name": "Buzo Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/buzo.jpg",
+        "category":["Buzo"],
+        "id": 28,
+        "url": "producto28"
+    },
+    {
+        "name": "Buzo Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/buzo.jpg",
+        "category":["Buzo"],
+        "id": 29,
+        "url": "producto29"
+    },
+    {
+        "name": "Buzo Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/buzo.jpg",
+        "category":["Buzo"],
+        "id": 30,
+        "url": "producto30"
+    },
+    {
+        "name": "Buzo Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/buzo.jpg",
+        "category":["Buzo"],
+        "id": 31,
+        "url": "producto31"
+    }
+    
+]
