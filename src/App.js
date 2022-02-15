@@ -11,6 +11,9 @@ import Home from './pages/Home';
 import ProductPage from './pages/ProductPage';
 import { Link } from "react-router-dom";
 import './assets/img/remera.jpg';
+import './assets/img/accesorio.jpg';
+import './assets/img/jean.jpg';
+import './assets/img/buzo.jpg';
 
 export default function App() {
 

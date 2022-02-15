@@ -4,7 +4,7 @@ import ItemProduct from './ItemProduct';
 import { useLayoutEffect, useState } from 'react';
 import ProductsJson from '../assets/json/Products.json'
 
-export default function CarouselCategory() {
+export default function CarouselCategory({propEnviar}) {
 
     const breackpointSwiper = {
         300: {
@@ -38,11 +38,14 @@ export default function CarouselCategory() {
             slidesPerView: 5,
         },
     }
+    const ProductsJsonFiltrer = ProductsJson;
+
+    const filtrerItems = ProductsJsonFiltrer.filter(item=> item.category == propEnviar)
 
     return (
         <Swiper className='categoryProductsCategory swiper' spaceBetween={50} breakpoints={breackpointSwiper}>
-            {ProductsJson.map(product =>
-                <SwiperSlide><ItemProduct name={product.name} price={product.price} img={product.img} /></SwiperSlide>
+            {filtrerItems.map(product =>
+                <SwiperSlide><ItemProduct key={product.id} name={product.name} price={product.price} img={product.img} /></SwiperSlide>
             )}
         </Swiper>
     )

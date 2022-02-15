@@ -9,6 +9,8 @@
 }
 .imgProduct{
     width: 100%;
+    height: 200px;
+    object-fit:cover;
     border-radius: 5px;
 }
 .descriptionProduct{
@@ -70,6 +72,7 @@
     }
     .imgProduct{
         border-radius: 10px;
+        height: 250px;
     }
     .titleProduct{
         font-size:22px;

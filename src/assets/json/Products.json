@@ -1,42 +1,222 @@
 [
     {
         "name": "Remera Marca X",
-        "price": "$2500.00",
-        "img": "../assets/img/remera.jpg"
-    },
-    {
-        "name": "Remera Marca Y",
-        "price": "$2500.00",
-        "img": "../assets/img/remera.jpg"
+        "price": "$3500.00",
+        "img": "../assets/img/remera.jpg",
+        "category":["Remeras"],
+        "id": 1
     },
     {
         "name": "Remera Marca X",
-        "price": "$2500.00",
-        "img": "../assets/img/remera.jpg"
+        "price": "$2900.00",
+        "img": "../assets/img/remera.jpg",
+        "category":["Remeras"],
+        "id": 2
     },
     {
         "name": "Remera Marca X",
-        "price": "$2500.00",
-        "img": "../assets/img/remera.jpg"
+        "price": "$2620.00",
+        "img": "../assets/img/remera.jpg",
+        "category":["Remeras"],
+        "id": 3
+        
     },
     {
         "name": "Remera Marca X",
-        "price": "$2500.00",
-        "img": "../assets/img/remera.jpg"
+        "price": "$9502.00",
+        "img": "../assets/img/remera.jpg",
+        "category":["Remeras"],
+        "id": 4
+        
     },
     {
         "name": "Remera Marca X",
-        "price": "$2500.00",
-        "img": "../assets/img/remera.jpg"
+        "price": "$8103.20",
+        "img": "../assets/img/remera.jpg",
+        "category":["Remeras"],
+        "id": 5
     },
     {
-        "name": "Remera Marca X",
-        "price": "$2500.00",
-        "img": "../assets/img/remera.jpg"
+        "name": "Jean Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/jean.png",
+        "category":["Jean"],
+        "id": 6
     },
     {
-        "name": "Remera Marca X",
-        "price": "$2500.00",
-        "img": "../assets/img/remera.jpg"
+        "name": "Jean Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/jean.png",
+        "category":["Jean"],
+        "id": 7
+    },
+    {
+        "name": "Jean Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/jean.png",
+        "category":["Jean"],
+        "id": 8
+    },
+    {
+        "name": "Jean Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/jean.png",
+        "category":["Jean"],
+        "id": 9
+    },
+    {
+        "name": "Jean Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/jean.png",
+        "category":["Jean"],
+        "id": 10
+    },
+    {
+        "name": "Jean Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/jean.png",
+        "category":["Jean"],
+        "id": 11
+    },
+    {
+        "name": "Jean Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/jean.png",
+        "category":["Jean"],
+        "id": 12
+    },
+    {
+        "name": "Jean Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/jean.png",
+        "category":["Jean"],
+        "id": 13
+    },
+    {
+        "name": "Accesorio Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/accesorio.jpg",
+        "category":["Accesorio"],
+        "id": 14
+    },
+    {
+        "name": "Accesorio Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/accesorio.jpg",
+        "category":["Accesorio"],
+        "id": 15
+    },
+    {
+        "name": "Accesorio Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/accesorio.jpg",
+        "category":["Accesorio"],
+        "id": 16
+    },
+    {
+        "name": "Accesorio Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/accesorio.jpg",
+        "category":["Accesorio"],
+        "id": 17
+    },
+    {
+        "name": "Accesorio Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/accesorio.jpg",
+        "category":["Accesorio"],
+        "id": 18
+    },
+    {
+        "name": "Accesorio Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/accesorio.jpg",
+        "category":["Accesorio"],
+        "id": 19
+    },
+    {
+        "name": "Accesorio Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/accesorio.jpg",
+        "category":["Accesorio"],
+        "id": 20
+    },
+    {
+        "name": "Accesorio Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/accesorio.jpg",
+        "category":["Accesorio"],
+        "id": 21
+    },
+    {
+        "name": "Accesorio Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/accesorio.jpg",
+        "category":["Accesorio"],
+        "id": 22
+    },
+    {
+        "name": "Buzo Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/buzo.jpg",
+        "category":["Buzo"],
+        "id": 23
+    },
+    {
+        "name": "Buzo Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/buzo.jpg",
+        "category":["Buzo"],
+        "id": 24
+    },
+    {
+        "name": "Buzo Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/buzo.jpg",
+        "category":["Buzo"],
+        "id": 25
+    },
+    {
+        "name": "Buzo Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/buzo.jpg",
+        "category":["Buzo"],
+        "id": 26
+    },
+    {
+        "name": "Buzo Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/buzo.jpg",
+        "category":["Buzo"],
+        "id": 27
+    },
+    {
+        "name": "Buzo Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/buzo.jpg",
+        "category":["Buzo"],
+        "id": 28
+    },
+    {
+        "name": "Buzo Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/buzo.jpg",
+        "category":["Buzo"],
+        "id": 29
+    },
+    {
+        "name": "Buzo Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/buzo.jpg",
+        "category":["Buzo"],
+        "id": 30
+    },
+    {
+        "name": "Buzo Marca X",
+        "price": "$8103.20",
+        "img": "../assets/img/buzo.jpg",
+        "category":["Buzo"],
+        "id": 31
     }
+    
 ]
