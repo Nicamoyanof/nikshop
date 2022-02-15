@@ -71,6 +71,10 @@ module.exports = {
         }
         ),
     ],
+    performance: {
+        maxEntrypointSize: 512000,
+        maxAssetSize: 512000
+   },
     devServer: {
         open: true,
         port: 3000,

@@ -42,17 +42,8 @@ export default function CarouselCategory() {
     return (
         <Swiper className='categoryProductsCategory swiper' spaceBetween={50} breakpoints={breackpointSwiper}>
             {ProductsJson.map(product =>
-                <ItemProduct name={product.name} price={product.price} img={product.img} />
+                <SwiperSlide><ItemProduct name={product.name} price={product.price} img={product.img} /></SwiperSlide>
             )}
-            {/* <SwiperSlide><ItemProduct /></SwiperSlide>
-            <SwiperSlide><ItemProduct /></SwiperSlide>
-            <SwiperSlide><ItemProduct /></SwiperSlide>
-            <SwiperSlide><ItemProduct /></SwiperSlide>
-            <SwiperSlide><ItemProduct /></SwiperSlide>
-            <SwiperSlide><ItemProduct /></SwiperSlide>
-            <SwiperSlide><ItemProduct /></SwiperSlide>
-            <SwiperSlide><ItemProduct /></SwiperSlide>
-            <SwiperSlide><ItemProduct /></SwiperSlide> */}
         </Swiper>
     )
 }
