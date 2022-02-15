@@ -1,4 +1,5 @@
-import ProductPageComponent from '../components/ProductPageComponent'
+import ProductPageComponent from '../components/ProductPageComponent';
+import '../assets/img/remera.jpg';
 
 export default function ProductPage() {
     return (

@@ -37,7 +37,21 @@ const rulesForPng = {
    /*  loader: 'file-loader? name=/public/img/[name].[ext]' */
 }
 
-const rules = [rulesForJavascript, rulesForCss, rulesForPng]
+
+// const rulesForJson = {
+//     test: /\.json$/,
+//     loader: 'json-loader',
+//     // options: {
+//     //     name: '[name].[ext]',
+//     //     outputPath: 'assets/json/',
+//     //     useRelativePath: true
+//     // },
+//     type: 'javascript/auto'
+// }
+
+
+
+const rules = [rulesForJavascript, rulesForCss, rulesForPng ]
 
 module.exports = {
     entry: [

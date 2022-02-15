@@ -1,23 +1,24 @@
 import '../../styles/components/ProductPageComponent.css';
 import { BsCreditCard2Back, BsCash, BsTruck } from "react-icons/bs";
 import { GrFormAdd, GrFormSubtract } from "react-icons/gr";
+import '../assets/img/remera.jpg';
 
 
 export default function ProductPageComponent() {
     return (
         <div className="containerProductPages">
             <div className="containerImages">
-                <img src="../assets/img/remera.jpg" className='imageProductPrincipal' />
+                <img src="assets/img/remera.jpg" className='imageProductPrincipal' />
                 <div className='swiperImages'>
-                    <img src="../assets/img/remera.jpg" className='imageProductPage' />
-                    <img src="../assets/img/remera.jpg" className='imageProductPage' />
-                    <img src="../assets/img/remera.jpg" className='imageProductPage' />
-                    <img src="../assets/img/remera.jpg" className='imageProductPage' />
-                    <img src="../assets/img/remera.jpg" className='imageProductPage' />
-                    <img src="../assets/img/remera.jpg" className='imageProductPage' />
-                    <img src="../assets/img/remera.jpg" className='imageProductPage' />
-                    <img src="../assets/img/remera.jpg" className='imageProductPage' />
-                    <img src="../assets/img/remera.jpg" className='imageProductPage' />
+                    <img src="assets/img/remera.jpg" className='imageProductPage' />
+                    <img src="assets/img/remera.jpg" className='imageProductPage' />
+                    <img src="assets/img/remera.jpg" className='imageProductPage' />
+                    <img src="assets/img/remera.jpg" className='imageProductPage' />
+                    <img src="assets/img/remera.jpg" className='imageProductPage' />
+                    <img src="assets/img/remera.jpg" className='imageProductPage' />
+                    <img src="assets/img/remera.jpg" className='imageProductPage' />
+                    <img src="assets/img/remera.jpg" className='imageProductPage' />
+                    <img src="assets/img/remera.jpg" className='imageProductPage' />
                 </div>
                 <p className='paginationImg'>1/3</p>
             </div>
