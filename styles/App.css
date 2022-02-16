@@ -98,6 +98,7 @@
 /*  CARRITO DE COMPRAS  */
 
 .containerCartList {
+    visibility: hidden;
     z-index: 2000;
     background: #ffdc82;
     position: fixed;
@@ -110,6 +111,7 @@
 }
 .containerCartList.active{
     margin-right: 0;
+    visibility: visible;
 }
 .cartPreductAdd {
     display: none;
@@ -189,10 +191,12 @@
     height: 100vh;
     padding: 30px 15px;
     transition: 1s;
+    visibility: hidden;
 }
 
 .navBar.active {
     margin-left: 0;
+    visibility: visible;
 }
 
 .closeNavBar {
@@ -326,6 +330,7 @@
 
 
     .navBar {
+        visibility: visible;
         position: fixed;
         z-index: 400;
         margin-top: 91.28px;

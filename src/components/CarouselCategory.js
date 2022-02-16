@@ -2,7 +2,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import ItemProduct from './ItemProduct';
 import { useLayoutEffect, useState } from 'react';
-import ProductsJson from '../assets/json/Products.json'
+import ProductsJson from '../assets/json/Products.json';
+import '../../styles/components/CarouselCategory.css'
 
 export default function CarouselCategory({propEnviar}) {
 
@@ -38,14 +39,14 @@ export default function CarouselCategory({propEnviar}) {
             slidesPerView: 5,
         },
     }
-    const ProductsJsonFiltrer = ProductsJson;
+    const ProductsJsonFilter = ProductsJson;
 
-    const filtrerItems = ProductsJsonFiltrer.filter(item=> item.category == propEnviar)
+    const filterItems = ProductsJsonFilter.filter(item=> item.category == propEnviar)
 
     return (
         <Swiper className='categoryProductsCategory swiper' spaceBetween={50} breakpoints={breackpointSwiper}>
-            {filtrerItems.map(product =>
-                <SwiperSlide><ItemProduct key={product.id} name={product.name} price={product.price} img={product.img} url={product.url} /></SwiperSlide>
+            {filterItems.map(product =>
+                <SwiperSlide className='figura'><ItemProduct className='figura' key={product.id} name={product.name} price={product.price} img={product.img} url={product.url} /></SwiperSlide>
             )}
         </Swiper>
     )

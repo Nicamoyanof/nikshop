@@ -7,13 +7,13 @@ export default function ProductPage() {
 
     const urlProduct = window.location.href.split('/')[4]
 
-    const ProductsJsonFiltrer = ProductsJson;
+    const ProductsJsonFilter = ProductsJson;
 
-    const filtrerItems = ProductsJsonFiltrer.filter(item=> item.url == urlProduct);
+    const filterItems = ProductsJsonFilter.filter(item=> item.url == urlProduct);
 
     return (
         <main>
-            <ProductPageComponent urlProducto={filtrerItems[0].id} />
+            <ProductPageComponent urlProducto={filterItems[0].id} />
             <h5 className="moreProductsRelation">Productos Relacionados</h5>
 
         </main>

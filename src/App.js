@@ -14,6 +14,8 @@ import './assets/img/remera.jpg';
 import './assets/img/accesorio.jpg';
 import './assets/img/jean.jpg';
 import './assets/img/buzo.jpg';
+import CategoryPage from './pages/CategoryPage';
+
 
 export default function App() {
 
@@ -145,7 +147,8 @@ export default function App() {
 
             <Routes >
                 <Route path="/" element={<Home />} />
-                <Route exact path="/:name" element={<ProductPage />} />
+                <Route exact path="/categoria/producto" element={<CategoryPage />} />
+                {/* <Route exact path="/:name" element={<ProductPage />} /> */}
             </Routes>
 
 

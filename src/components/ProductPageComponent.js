@@ -6,33 +6,33 @@ import ProductsJson from '../assets/json/Products.json'
 
 
 export default function ProductPageComponent({urlProducto}) {
-    const ProductsJsonFiltrer = ProductsJson;
+    const ProductsJsonFilter = ProductsJson;
 
-    const filtrerItems = ProductsJsonFiltrer.filter(item=> item.id == urlProducto)
+    const filterItems = ProductsJsonFilter.filter(item=> item.id == urlProducto)
 
-    console.log(filtrerItems)
+    console.log(filterItems)
 
     return (
         <div className="containerProductPages">
             <div className="containerImages">
-                <img src={filtrerItems[0].img} className='imageProductPrincipal' />
+                <img src={filterItems[0].img} className='imageProductPrincipal' />
                 <div className='swiperImages'>
-                    <img src={filtrerItems[0].img} className='imageProductPage' />
-                    <img src={filtrerItems[0].img} className='imageProductPage' />
-                    <img src={filtrerItems[0].img} className='imageProductPage' />
-                    <img src={filtrerItems[0].img} className='imageProductPage' />
-                    <img src={filtrerItems[0].img} className='imageProductPage' />
-                    <img src={filtrerItems[0].img} className='imageProductPage' />
-                    <img src={filtrerItems[0].img} className='imageProductPage' />
-                    <img src={filtrerItems[0].img} className='imageProductPage' />
-                    <img src={filtrerItems[0].img} className='imageProductPage' />
+                    <img src={filterItems[0].img} className='imageProductPage' />
+                    <img src={filterItems[0].img} className='imageProductPage' />
+                    <img src={filterItems[0].img} className='imageProductPage' />
+                    <img src={filterItems[0].img} className='imageProductPage' />
+                    <img src={filterItems[0].img} className='imageProductPage' />
+                    <img src={filterItems[0].img} className='imageProductPage' />
+                    <img src={filterItems[0].img} className='imageProductPage' />
+                    <img src={filterItems[0].img} className='imageProductPage' />
+                    <img src={filterItems[0].img} className='imageProductPage' />
                 </div>
                 <p className='paginationImg'>1/3</p>
             </div>
             <div className='containerInfoProductPage'>
                 <span className='containerCategoryPages'><p>Inicio &gt; Remeras &gt; Remera Marca X</p></span>
-                <h1 className='titleProductPage'> {filtrerItems[0].name} </h1>
-                <h3 className='priceProductPage'>{filtrerItems[0].price}</h3>
+                <h1 className='titleProductPage'> {filterItems[0].name} </h1>
+                <h3 className='priceProductPage'>{filterItems[0].price}</h3>
                 <div className='payMethodsProduct'>
                     <span className='itemMethodsPay'><BsCreditCard2Back className='iconItemsPay' /> <p className='textMethodsPay'> 6 coutas sin interes de $416.66</p> </span>
                     <span className='itemMethodsPay'><BsCreditCard2Back className='iconItemsPay' /> <p className='textMethodsPay'>  6 coutas sin interes de $416.66</p></span>

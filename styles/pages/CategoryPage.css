@@ -1,0 +1,167 @@
+
+.mainContainerCategoryPage{
+    margin-top:50px;
+
+}
+
+.routeCategory{
+    color: #fff;
+    padding: 5px 15px;
+}
+.containerInputsFilter{
+    display: flex;
+    margin: 15px 0;
+    justify-content: space-around;
+}
+.btnFilter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size:16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    background: #fdf1d0;
+    border: none;
+    border-radius:50px
+}
+.iconFilterBtn{
+    margin: 0 5px;
+}
+.selectOrderProducts:focus{
+    outline: none;
+}
+.selectOrderProducts{
+    font-size:13px
+}
+
+/*      CAJON DE FILTROS RESPONSIVE     */
+
+.containerFilterProducts{
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background: #ffdc82;
+    margin-top: 100vh;
+    transition: 1s;
+}
+.containerFilterProducts.active{
+    visibility: visible;
+    margin-top: 0;
+}
+.containerTitleFilter{
+    display: flex;
+    width: 100vw;
+    height: 70px;
+    background: #000;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.iconCloseFilter{
+    color: #fdf1d0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 10px;
+    font-size: 30px;
+}
+
+.titleFilterMobile{
+    color: #fdf1d0;
+    text-align: center;
+    font-size:26px;
+    font-weight:500;
+    letter-spacing:1.5px
+}
+.titleCategoryPage{
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing:1.5px;
+}
+.containerProductsFilterPage{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items:center;
+    width: 100vw;
+}
+@media (min-width: 375px){
+    .productFilterPage{
+        width: 250px;
+    }
+}
+@media (min-width: 425px){
+    .productFilterPage{
+        width: 275px;
+    }
+}
+@media (min-width: 500px){
+    .productFilterPage{
+        width: 250px;
+    }
+    .containerProductsFilterPage{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 768px){
+    .mainContainerCategoryPage{
+    }
+    .containerFilterAndProduct{
+        display: flex;
+    }
+    .btnFilter{
+        display: none;
+    }
+    .containerFilterProducts{
+        visibility: visible;
+        z-index: 0;
+        position: relative;
+        width: 200px;
+        height: auto;
+        background: none;
+        margin-top: 0;
+        transition: 0;
+    }
+    .containerTitleFilter{
+        display: none;
+    }
+    .controlFilterCategory{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+    .titleCategoryPage{
+        color: #fff;
+        font-size: 26px;
+        text-align: center;
+        font-weight: 500;
+        letter-spacing:1.5px;
+        padding: 15px 0
+    }
+    .selectOrderProducts{
+        font-size:16px;
+        font-weight:500;
+        padding: 5px;
+    }
+}
+@media (min-width: 1000px){
+    .containerProductsFilterPage{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (min-width: 1350px){
+    .mainContainerCategoryPage{
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .containerProductsFilterPage{
+        grid-template-columns: repeat(4, 1fr);
+
+    }
+}

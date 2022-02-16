@@ -1,0 +1,31 @@
+.containerFilterSize{
+    padding: 20px;
+}
+.titleFormSize{
+    padding: 0 0 10px 5px;
+    font-size: 20px;
+}
+.formFilterSize{
+    display: flex;
+    flex-direction: column;
+}
+.labelNameCheckSize{
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+.inputCheckSize{
+    margin-right: 5px;
+    background: none;
+}
+.inputCheckSize[type="checkbox"]{
+    content: "f096";
+}
+@media (min-width: 768px){
+    .titleFormSize{
+        color:#fff;
+    }
+    .labelNameCheckSize{
+        color: #fff;
+    }
+}

@@ -1,0 +1,31 @@
+.containerFilterColor{
+    padding: 20px;
+}
+.titleFormColor{
+    padding: 0 0 10px 5px;
+    font-size: 20px;
+}
+.formFilterColor{
+    display: flex;
+    flex-direction: column;
+}
+.labelNameCheckColor{
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+.inputCheckColor{
+    margin-right: 5px;
+    background: none;
+}
+.inputCheckColor[type="checkbox"]{
+    content: "f096";
+}
+@media (min-width: 768px){
+    .titleFormColor{
+        color:#fff;
+    }
+    .labelNameCheckColor{
+        color: #fff;
+    }
+}
