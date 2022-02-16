@@ -45,7 +45,7 @@ export default function CarouselCategory({propEnviar}) {
     return (
         <Swiper className='categoryProductsCategory swiper' spaceBetween={50} breakpoints={breackpointSwiper}>
             {filtrerItems.map(product =>
-                <SwiperSlide><ItemProduct key={product.id} name={product.name} price={product.price} img={product.img} /></SwiperSlide>
+                <SwiperSlide><ItemProduct key={product.id} name={product.name} price={product.price} img={product.img} url={product.url} /></SwiperSlide>
             )}
         </Swiper>
     )

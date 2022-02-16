@@ -40,13 +40,12 @@ const rulesForPng = {
 
 // const rulesForJson = {
 //     test: /\.json$/,
-//     loader: 'json-loader',
-//     // options: {
-//     //     name: '[name].[ext]',
-//     //     outputPath: 'assets/json/',
-//     //     useRelativePath: true
-//     // },
-//     type: 'javascript/auto'
+//     options: {
+//         name: '[name].[ext]',
+//         outputPath: 'assets/json/',
+//         useRelativePath: true
+//     },
+//     // type: 'javascript/auto'
 // }
 
 

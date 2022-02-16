@@ -145,7 +145,7 @@ export default function App() {
 
             <Routes >
                 <Route path="/" element={<Home />} />
-                <Route exact path="/about" element={<ProductPage />} />
+                <Route exact path="/:name" element={<ProductPage />} />
             </Routes>
 
 

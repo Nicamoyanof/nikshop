@@ -2,30 +2,37 @@ import '../../styles/components/ProductPageComponent.css';
 import { BsCreditCard2Back, BsCash, BsTruck } from "react-icons/bs";
 import { GrFormAdd, GrFormSubtract } from "react-icons/gr";
 import '../assets/img/remera.jpg';
+import ProductsJson from '../assets/json/Products.json'
 
 
-export default function ProductPageComponent() {
+export default function ProductPageComponent({urlProducto}) {
+    const ProductsJsonFiltrer = ProductsJson;
+
+    const filtrerItems = ProductsJsonFiltrer.filter(item=> item.id == urlProducto)
+
+    console.log(filtrerItems)
+
     return (
         <div className="containerProductPages">
             <div className="containerImages">
-                <img src="assets/img/remera.jpg" className='imageProductPrincipal' />
+                <img src={filtrerItems[0].img} className='imageProductPrincipal' />
                 <div className='swiperImages'>
-                    <img src="assets/img/remera.jpg" className='imageProductPage' />
-                    <img src="assets/img/remera.jpg" className='imageProductPage' />
-                    <img src="assets/img/remera.jpg" className='imageProductPage' />
-                    <img src="assets/img/remera.jpg" className='imageProductPage' />
-                    <img src="assets/img/remera.jpg" className='imageProductPage' />
-                    <img src="assets/img/remera.jpg" className='imageProductPage' />
-                    <img src="assets/img/remera.jpg" className='imageProductPage' />
-                    <img src="assets/img/remera.jpg" className='imageProductPage' />
-                    <img src="assets/img/remera.jpg" className='imageProductPage' />
+                    <img src={filtrerItems[0].img} className='imageProductPage' />
+                    <img src={filtrerItems[0].img} className='imageProductPage' />
+                    <img src={filtrerItems[0].img} className='imageProductPage' />
+                    <img src={filtrerItems[0].img} className='imageProductPage' />
+                    <img src={filtrerItems[0].img} className='imageProductPage' />
+                    <img src={filtrerItems[0].img} className='imageProductPage' />
+                    <img src={filtrerItems[0].img} className='imageProductPage' />
+                    <img src={filtrerItems[0].img} className='imageProductPage' />
+                    <img src={filtrerItems[0].img} className='imageProductPage' />
                 </div>
                 <p className='paginationImg'>1/3</p>
             </div>
             <div className='containerInfoProductPage'>
                 <span className='containerCategoryPages'><p>Inicio &gt; Remeras &gt; Remera Marca X</p></span>
-                <h1 className='titleProductPage'>Remera Marca X</h1>
-                <h3 className='priceProductPage'>$2500.00</h3>
+                <h1 className='titleProductPage'> {filtrerItems[0].name} </h1>
+                <h3 className='priceProductPage'>{filtrerItems[0].price}</h3>
                 <div className='payMethodsProduct'>
                     <span className='itemMethodsPay'><BsCreditCard2Back className='iconItemsPay' /> <p className='textMethodsPay'> 6 coutas sin interes de $416.66</p> </span>
                     <span className='itemMethodsPay'><BsCreditCard2Back className='iconItemsPay' /> <p className='textMethodsPay'>  6 coutas sin interes de $416.66</p></span>
