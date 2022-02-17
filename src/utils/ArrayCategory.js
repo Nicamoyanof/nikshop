@@ -1,10 +1,14 @@
 import ProductJson from '../assets/json/Products.json';
 
 
-const asArray = Object.entries(ProductJson);
-const filtered = asArray.filter(([key, value]) =>  key === 'category');
-const justStrings = Object.fromEntries(filtered);
+const nuevoArray = ProductJson;
+
+nuevoArray.reduce((allSize, size)=>{
+    return Array.from(new Set([...allSize, ...size.size]))
+}, [])
+
+console.log(nuevoArray)
 
 export default {
-    filtered
+    nuevoArray
 }

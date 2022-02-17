@@ -16,17 +16,16 @@ import './assets/img/jean.jpg';
 import './assets/img/buzo.jpg';
 import CategoryPage from './pages/CategoryPage';
 
-
 export default function App() {
 
 
     const [classNavBar, setClassNavBar] = useState('navBar');
 
     const deployMenu = () => {
-        if (classNavBar === 'navBar' ){
+        if (classNavBar === 'navBar') {
             setClassNavBar('navBar active')
             setOverlayModalStyle('block')
-        }else{
+        } else {
             setClassNavBar('navBar');
             setOverlayModalStyle('none')
         }
@@ -36,28 +35,28 @@ export default function App() {
     const [cartShop, setCartShop] = useState('containerCartList');
 
     const deployCartShop = () => {
-        if (cartShop === 'containerCartList' ){
+        if (cartShop === 'containerCartList') {
             setCartShop('containerCartList active')
             setOverlayModalStyle('block')
-        }else{
+        } else {
             setCartShop('containerCartList');
             setOverlayModalStyle('none')
         }
 
     }
 
-    document.addEventListener("click", function(e){
+    document.addEventListener("click", function (e) {
         var clic = e.target;
-        if(clic == document.querySelector('.overlayModal')){
-         if (cartShop === 'containerCartList active' ){
-            setCartShop('containerCartList');
-            setOverlayModalStyle('none')
-         }else if (classNavBar === 'navBar active'){
-            setClassNavBar('navBar');
-            setOverlayModalStyle('none')
-         }
+        if (clic == document.querySelector('.overlayModal')) {
+            if (cartShop === 'containerCartList active') {
+                setCartShop('containerCartList');
+                setOverlayModalStyle('none')
+            } else if (classNavBar === 'navBar active') {
+                setClassNavBar('navBar');
+                setOverlayModalStyle('none')
+            }
         }
-        }, false);
+    }, false);
 
     const [overlayModalStyle, setOverlayModalStyle] = useState('none');
 
@@ -65,6 +64,23 @@ export default function App() {
     const styleModal = {
         display: overlayModalStyle,
     }
+
+
+
+    const categoriasLista = [
+        {
+            category: 'Remeras'
+        },
+        {
+            category: 'Buzo'
+        },
+        {
+            category: 'Jean'
+        },
+        {
+            category: 'Accesorio'
+        }
+    ]
 
     return (
         <div className='containerApp' >
@@ -96,7 +112,7 @@ export default function App() {
 
             <div id='menuCartShop' className={cartShop}>
                 <span className='containerTitleCartList'>
-                    <IoCloseOutline className='bntCloseCart' onClick={() => deployCartShop()}  />
+                    <IoCloseOutline className='bntCloseCart' onClick={() => deployCartShop()} />
                     <h4 className='titleCartList'>Mi Carrito de Compras</h4>
                 </span>
                 <div className='cartPreductAdd'>
@@ -129,26 +145,25 @@ export default function App() {
             <nav className={classNavBar} >
                 <IoCloseOutline className='closeNavBar' onClick={() => deployMenu()} />
                 <ul className='listNavBar'>
-                    <li className='itemListNavBar'>
-                        Remeras
-                    </li>
-                    <li className='itemListNavBar'>
-                        Buzos y Hoodies
-                    </li>
-                    <li className='itemListNavBar'>
-                        Jeans
-                    </li>
-                    <li className='itemListNavBar'>
-                        Accesorios
-                    </li>
+                    {categoriasLista.map(product =>
+                        <Link to={`/categoria/${product.category}`} className="containerTitleProduct">
+                            <li className='itemListNavBar'>
+                                {product.category}
+                            </li>
+                        </Link>
+
+                    )}
+                    
                 </ul>
             </nav>
             <span className='generateMarginBottom'></span>
 
             <Routes >
                 <Route path="/" element={<Home />} />
-                <Route exact path="/categoria/producto" element={<CategoryPage />} />
-                {/* <Route exact path="/:name" element={<ProductPage />} /> */}
+                <Route exact path="/categoria">
+                    <Route exact path=":nameCategory" element={<CategoryPage />}/>
+                </Route>
+                <Route exact path=":name" element={<ProductPage />} />
             </Routes>
 
 

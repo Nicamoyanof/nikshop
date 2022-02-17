@@ -1,34 +1,36 @@
-import '../../styles/components/FilterSize.css'
+import '../../styles/components/FilterSize.css';
+import ProductJson from '../assets/json/Products.json'
 
-function FilterSize() {
-    return (
-      <div className="containerFilterSize">
+function FilterSize({ prodCat }) {
+
+  const filterItems = ProductJson.filter(item => item.category == prodCat);
+  console.log(filterItems, 'aca')
+
+  const nuevoArray = filterItems;
+
+
+  nuevoArray.reduce((allSize, size) => {
+    return Array.from(new Set([...allSize, ...size.name]))
+  }, [])
+
+  console.log(nuevoArray)
+  
+
+  return (
+    <div className="containerFilterSize">
       <h4 className='titleFormSize'>Talle</h4>
       <form className='formFilterSize'>
-        <label className='labelNameCheckSize'>
-          <input type='checkbox' className='inputCheckSize' />
-          Talle
-        </label>
-        <label className='labelNameCheckSize'>
-          <input type='checkbox' className='inputCheckSize' />
-          Talle
-        </label>
-        <label className='labelNameCheckSize'>
-          <input type='checkbox' className='inputCheckSize' />
-          Talle
-        </label>
-        <label className='labelNameCheckSize'>
-          <input type='checkbox' className='inputCheckSize' />
-          Talle
-        </label>
-        <label className='labelNameCheckSize'>
-          <input type='checkbox' className='inputCheckSize' />
-          Talle
-        </label>
+        {filterItems.map(item =>
+          <label className='labelNameCheckSize'>
+            <input type='checkbox' className='inputCheckSize' />
+            {item.size}
+          </label>
+
+        )}
       </form>
     </div>
-          
-    )
-  }
-  
-  export default FilterSize
+
+  )
+}
+
+export default FilterSize

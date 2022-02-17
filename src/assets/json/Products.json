@@ -5,7 +5,8 @@
         "img": "../assets/img/remera.jpg",
         "category":["Remeras"],
         "id": 1,
-        "url": "producto1"
+        "url": "producto1",
+        "size": ["S", "M", "L", "XL"]
     },
     {
         "name": "Remera Marca X",
@@ -13,7 +14,8 @@
         "img": "../assets/img/remera.jpg",
         "category":["Remeras"],
         "id": 2,
-        "url": "producto2"
+        "url": "producto2",
+        "size": ["S", "M", "L", "XL"]
     },
     {
         "name": "Remera Marca X",
@@ -21,7 +23,8 @@
         "img": "../assets/img/remera.jpg",
         "category":["Remeras"],
         "id": 3,
-        "url": "producto3"
+        "url": "producto3",
+        "size": ["S", "M", "L", "XL"]
         
     },
     {
@@ -30,7 +33,8 @@
         "img": "../assets/img/remera.jpg",
         "category":["Remeras"],
         "id": 4,
-        "url": "producto4"
+        "url": "producto4",
+        "size":["S", "M", "L", "XL"]
         
     },
     {
@@ -39,7 +43,8 @@
         "img": "../assets/img/remera.jpg",
         "category":["Remeras"],
         "id": 5,
-        "url": "producto5"
+        "url": "producto5",
+        "size":["S", "M", "L", "XL"]
     },
     {
         "name": "Jean Marca X",
@@ -47,7 +52,8 @@
         "img": "../assets/img/jean.jpg",
         "category":["Jean"],
         "id": 6,
-        "url": "producto6"
+        "url": "producto6",
+        "size":["S", "M", "L", "XL"]
     },
     {
         "name": "Jean Marca X",
@@ -55,7 +61,8 @@
         "img": "../assets/img/jean.jpg",
         "category":["Jean"],
         "id": 7,
-        "url": "producto7"
+        "url": "producto7",
+        "size":["S", "M", "L", "XL"]
     },
     {
         "name": "Jean Marca X",
@@ -63,7 +70,8 @@
         "img": "../assets/img/jean.jpg",
         "category":["Jean"],
         "id": 8,
-        "url": "producto8"
+        "url": "producto8",
+        "size":["S", "M", "L", "XL"]
     },
     {
         "name": "Jean Marca X",
@@ -71,7 +79,8 @@
         "img": "../assets/img/jean.jpg",
         "category":["Jean"],
         "id": 9,
-        "url": "producto9"
+        "url": "producto9",
+        "size":["S", "M", "L", "XL"]
     },
     {
         "name": "Jean Marca X",
@@ -79,7 +88,8 @@
         "img": "../assets/img/jean.jpg",
         "category":["Jean"],
         "id": 10,
-        "url": "producto10"
+        "url": "producto10",
+        "size":["S", "M", "L", "XL"]
     },
     {
         "name": "Jean Marca X",
@@ -87,7 +97,8 @@
         "img": "../assets/img/jean.jpg",
         "category":["Jean"],
         "id": 11,
-        "url": "producto11"
+        "url": "producto11",
+        "size":["S", "M", "L", "XL"]
     },
     {
         "name": "Jean Marca X",
@@ -95,7 +106,8 @@
         "img": "../assets/img/jean.jpg",
         "category":["Jean"],
         "id": 12,
-        "url": "producto12"
+        "url": "producto12",
+        "size":["S", "M", "L", "XL"]
     },
     {
         "name": "Jean Marca X",
@@ -103,7 +115,8 @@
         "img": "../assets/img/jean.jpg",
         "category":["Jean"],
         "id": 13,
-        "url": "producto13"
+        "url": "producto13",
+        "size":["S", "M", "L", "XL"]
     },
     {
         "name": "Accesorio Marca X",
@@ -111,7 +124,8 @@
         "img": "../assets/img/accesorio.jpg",
         "category":["Accesorio"],
         "id": 14,
-        "url": "producto14"
+        "url": "producto14",
+        "size":["S", "M", "L", "XL"]
     },
     {
         "name": "Accesorio Marca X",
@@ -119,7 +133,8 @@
         "img": "../assets/img/accesorio.jpg",
         "category":["Accesorio"],
         "id": 15,
-        "url": "producto15"
+        "url": "producto15",
+        "size":["S", "M", "L", "XL"]
     },
     {
         "name": "Accesorio Marca X",
@@ -127,7 +142,8 @@
         "img": "../assets/img/accesorio.jpg",
         "category":["Accesorio"],
         "id": 16,
-        "url": "producto16"
+        "url": "producto16",
+        "size":["S", "M", "L", "XL"]
     },
     {
         "name": "Accesorio Marca X",
@@ -135,7 +151,8 @@
         "img": "../assets/img/accesorio.jpg",
         "category":["Accesorio"],
         "id": 17,
-        "url": "producto17"
+        "url": "producto17",
+        "size":["S", "M", "L", "XL"]
     },
     {
         "name": "Accesorio Marca X",
@@ -143,7 +160,8 @@
         "img": "../assets/img/accesorio.jpg",
         "category":["Accesorio"],
         "id": 18,
-        "url": "producto18"
+        "url": "producto18",
+        "size":["S", "M", "L", "XL"]
     },
     {
         "name": "Accesorio Marca X",
@@ -151,7 +169,8 @@
         "img": "../assets/img/accesorio.jpg",
         "category":["Accesorio"],
         "id": 19,
-        "url": "producto19"
+        "url": "producto19",
+        "size":["S", "M", "L", "XL"]
     },
     {
         "name": "Accesorio Marca X",
@@ -159,7 +178,8 @@
         "img": "../assets/img/accesorio.jpg",
         "category":["Accesorio"],
         "id": 20,
-        "url": "producto20"
+        "url": "producto20",
+        "size":["S", "M", "L", "XL"]
     },
     {
         "name": "Accesorio Marca X",
@@ -167,7 +187,8 @@
         "img": "../assets/img/accesorio.jpg",
         "category":["Accesorio"],
         "id": 21,
-        "url": "producto21"
+        "url": "producto21",
+        "size":["S", "M", "L", "XL"]
     },
     {
         "name": "Accesorio Marca X",
@@ -175,7 +196,8 @@
         "img": "../assets/img/accesorio.jpg",
         "category":["Accesorio"],
         "id": 22,
-        "url": "producto22"
+        "url": "producto22",
+        "size":["S", "M", "L", "XL"]
     },
     {
         "name": "Buzo Marca X",
@@ -183,7 +205,8 @@
         "img": "../assets/img/buzo.jpg",
         "category":["Buzo"],
         "id": 23,
-        "url": "producto23"
+        "url": "producto23",
+        "size":["S", "M", "L", "XL"]
     },
     {
         "name": "Buzo Marca X",
@@ -191,7 +214,8 @@
         "img": "../assets/img/buzo.jpg",
         "category":["Buzo"],
         "id": 24,
-        "url": "producto24"
+        "url": "producto24",
+        "size":["S", "M", "L", "XL"]
     },
     {
         "name": "Buzo Marca X",
@@ -199,7 +223,8 @@
         "img": "../assets/img/buzo.jpg",
         "category":["Buzo"],
         "id": 25,
-        "url": "producto25"
+        "url": "producto25",
+        "size":["S", "M", "L", "XL"]
     },
     {
         "name": "Buzo Marca X",
@@ -207,7 +232,8 @@
         "img": "../assets/img/buzo.jpg",
         "category":["Buzo"],
         "id": 26,
-        "url": "producto26"
+        "url": "producto26",
+        "size":["S", "M", "L", "XL"]
     },
     {
         "name": "Buzo Marca X",
@@ -215,7 +241,8 @@
         "img": "../assets/img/buzo.jpg",
         "category":["Buzo"],
         "id": 27,
-        "url": "producto27"
+        "url": "producto27",
+        "size":["S", "M", "L", "XL"]
     },
     {
         "name": "Buzo Marca X",
@@ -223,7 +250,8 @@
         "img": "../assets/img/buzo.jpg",
         "category":["Buzo"],
         "id": 28,
-        "url": "producto28"
+        "url": "producto28",
+        "size":["S", "M", "L", "XL"]
     },
     {
         "name": "Buzo Marca X",
@@ -231,7 +259,8 @@
         "img": "../assets/img/buzo.jpg",
         "category":["Buzo"],
         "id": 29,
-        "url": "producto29"
+        "url": "producto29",
+        "size":["S", "M", "L", "XL"]
     },
     {
         "name": "Buzo Marca X",
@@ -239,7 +268,8 @@
         "img": "../assets/img/buzo.jpg",
         "category":["Buzo"],
         "id": 30,
-        "url": "producto30"
+        "url": "producto30",
+        "size":["S", "M", "L", "XL"]
     },
     {
         "name": "Buzo Marca X",
@@ -247,7 +277,8 @@
         "img": "../assets/img/buzo.jpg",
         "category":["Buzo"],
         "id": 31,
-        "url": "producto31"
+        "url": "producto31",
+        "size":["S", "M", "L", "XL"]
     }
     
 ]
